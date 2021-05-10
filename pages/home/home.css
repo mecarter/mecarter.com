@@ -3,10 +3,9 @@ section#home {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #080808;
+  background: black;
   color: white;
-  font-family: 'Xanh Mono', monospace;
-  text-transform: lowercase;
+  font-family: 'CSTMX-C', monospace;
 }
 
 section#home > div {
@@ -16,9 +15,10 @@ section#home > div {
 }
 
 section#home h1,
-section#home h2 {
+section#home h2,
+section#home h3 {
+  font-family: 'CSTMX-B';
   font-weight: normal;
-  text-transform: lowercase;
 }
 
 section#home h1 {
@@ -28,13 +28,11 @@ section#home h1 {
 
 section#home h2 {
   font-size: clamp(1.75rem, 10vw, 2.75rem);
-  font-style: italic;
   margin-bottom: 2rem;
 }
 
 section#home h3 {
   font-size: clamp(1.5rem, 7.5vw, 2rem);
-  font-style: italic;
   margin-bottom: 2rem;
 }
 
@@ -44,6 +42,7 @@ section#home p {
 }
 
 section#home a {
+  font-family: 'CSTMX-B';
   color: lightcoral;
   transition: color 0.2s;
 }
@@ -162,6 +161,6 @@ section#home video {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.33;
+  opacity: 0.15;
   filter: invert();
 }
