@@ -77,6 +77,11 @@ section#home a:hover::before {
   text-align: center;
 }
 
+section#home a.link-pdx::before {
+  background: forestgreen;
+  content: '🦌🔥';
+}
+
 section#home a.link-bw::before {
   background: turquoise;
   content: 'Ⓑⓦ';
@@ -144,7 +149,7 @@ section#home p.socialize a.socialize-lastfm::before {
 }
 
 section#home p.socialize a.socialize-discogs::before {
-  background: green;
+  background: orchid;
   content: '💿';
 }
 
