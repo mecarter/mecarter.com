@@ -1,23 +1,7 @@
-@font-face {
-  font-family: 'CSTMX-B';
-  src: url('/fonts/CSTMXprmntl03-Blackletter-Web.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/CSTMXprmntl03-Blackletter-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/CSTMXprmntl03-Blackletter-Web.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/CSTMXprmntl03-Blackletter-Web.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/CSTMXprmntl03-Blackletter-Web.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-
-@font-face {
-  font-family: 'CSTMX-C';
-  src: url('/fonts/CSTMXprmntl03-Cyrillic-Web.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/CSTMXprmntl03-Cyrillic-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/CSTMXprmntl03-Cyrillic-Web.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/CSTMXprmntl03-Cyrillic-Web.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/CSTMXprmntl03-Cyrillic-Web.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
+@import url("https://use.typekit.net/xqk7xbc.css");
 
 html, body {
-  font-family: 'CSTMX-C', Helvetica, Arial, sans-serif;
+  font-family: bd-geminis, sans-serif;
 }
 
 * {
