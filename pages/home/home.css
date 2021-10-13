@@ -1,8 +1,5 @@
 /* HOME SECTION */
 section#home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: black;
   color: white;
 }
@@ -21,8 +18,8 @@ section#home h3 {
 
 section#home h1 {
   font-size: clamp(3rem, 20vw, 6rem);
-  line-height: 7rem;
-  margin-bottom: 0.5rem;
+  line-height: 1;
+  margin-bottom: 1.25rem;
   background: rgb(197,240,128);
   background: linear-gradient(305deg, rgba(197,240,128,1) 24%, rgba(128,210,240,1) 100%);
   background-clip: text;
@@ -35,13 +32,21 @@ section#home h2 {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 1070px) {
+  section#home h2 span::after {
+    content: "";
+    display: block;
+  }
+}
+
 section#home h3 {
   font-size: clamp(1.5rem, 7.5vw, 2rem);
   margin-bottom: 2rem;
 }
 
 section#home p {
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: clamp(1.25rem, 5vw, 1.5rem);
+  line-height: 1.125;
   margin-bottom: 1rem;
 }
 
@@ -113,7 +118,7 @@ section#home hr {
 }
 
 section#home p.socialize {
-  font-size: clamp(0.75rem, 3vw, 1.25rem);
+  font-size: clamp(1rem, 3vw, 1.25rem);
 }
 
 section#home p.socialize a.socialize-twitter::before {
@@ -162,7 +167,7 @@ section#home p.socialize a.socialize-bandcamp::before {
 }
 
 section#home video {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 0;
@@ -171,4 +176,16 @@ section#home video {
   object-fit: cover;
   opacity: 0.15;
   filter: invert();
+}
+
+@media (min-width: 640px) {
+  section#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section#home video {
+    position: absolute;
+  }
 }
