@@ -105,11 +105,6 @@ section#home a.link-hs::before {
   content: '𝓱𝓼';
 }
 
-section#home a.link-psu::before {
-  background: greenyellow;
-  content: '🏔';
-}
-
 section#home hr {
   border: none;
   box-shadow: none;
