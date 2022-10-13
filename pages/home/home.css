@@ -85,9 +85,9 @@ section#home a:hover::before {
   text-align: center;
 }
 
-section#home a.link-pdx::before {
-  background: forestgreen;
-  content: '🦌🔥';
+section#home a.link-ams::before {
+  background: black;
+  content: '❌❌❌';
 }
 
 section#home a.link-bw::before {
