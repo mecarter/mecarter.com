@@ -90,11 +90,6 @@ section#home a.link-ams::before {
   content: '❌❌❌';
 }
 
-section#home a.link-bw::before {
-  background: turquoise;
-  content: 'Ⓑⓦ';
-}
-
 section#home a.link-mt::before {
   background: coral;
   content: '𝕸𝕿';
